@@ -1,0 +1,136 @@
+[2021-07-22 10:53:35 django.request] Not Found: /stock/goods/iphone/page=1
+[2021-07-22 10:53:35 django.server] "GET /stock/goods/iphone/page=1 HTTP/1.1" 404 2788
+[2021-07-22 10:59:20 django.request] Internal Server Error: /stock/goods/iphone/
+Traceback (most recent call last):
+  File "F:\pycharm\db2021\Django01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\pycharm\db2021\Django01\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\李元杰\PycharmProjects\Django01\advanceDjango\middleware\check_login.py", line 14, in process_request
+    msg = "%S 访问 %s" % (ip,path)
+ValueError: unsupported format character 'S' (0x53) at index 1
+[2021-07-22 10:59:21 django.server] "GET /stock/goods/iphone/ HTTP/1.1" 500 61295
+[2021-07-22 10:59:35 django.request] Internal Server Error: /stock/goods/iphone/
+Traceback (most recent call last):
+  File "F:\pycharm\db2021\Django01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\pycharm\db2021\Django01\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\李元杰\PycharmProjects\Django01\advanceDjango\middleware\check_login.py", line 14, in process_request
+    msg = "%S 访问 %s" % (ip,path)
+ValueError: unsupported format character 'S' (0x53) at index 1
+[2021-07-22 10:59:36 django.server] "GET /stock/goods/iphone/ HTTP/1.1" 500 61295
+[2021-07-22 10:59:59 django.request] Internal Server Error: /stock/goods/iphone/
+Traceback (most recent call last):
+  File "F:\pycharm\db2021\Django01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\pycharm\db2021\Django01\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\李元杰\PycharmProjects\Django01\advanceDjango\middleware\check_login.py", line 14, in process_request
+    msg = "%s 访问 %s" % (ip,path)
+ValueError: unsupported format character 'S' (0x53) at index 1
+[2021-07-22 11:11:05 mylogger] 127.0.0.1 访问 http://localhost:8000/stock/goods/iphone/
+[2021-07-22 14:48:13 mylogger] 127.0.0.1 访问 http://localhost:8000/stock/goods/iphone/
+[2021-07-22 14:48:17 mylogger] 127.0.0.1 访问 http://localhost:8000/stock/goods/iphone/
+[2021-07-22 14:48:56 mylogger] 127.0.0.1 访问 http://localhost:8000/stock/logout
+[2021-07-22 14:49:21 mylogger] 127.0.0.1 访问 http://localhost:8000/stock/logout%E3%80%81
+[2021-07-22 14:49:28 mylogger] 127.0.0.1 访问 http://localhost:8000/stock/logout/
+[2021-07-22 14:49:56 mylogger] 127.0.0.1 访问 http://localhost:8000/user/logout/
+[2021-07-22 14:55:50 mylogger] 127.0.0.1 访问 http://localhost:8000/user/login/?phone=13267886101
+[2021-07-22 14:56:04 mylogger] 127.0.0.1 访问 http://localhost:8000/user/code/?phone=13267886101
+[2021-07-22 14:56:53 mylogger] 127.0.0.1 访问 http://localhost:8000/user/login/?phone=13267886101&code=9tYM
+[2021-07-22 15:06:28 mylogger] 127.0.0.1 访问 http://localhost:8000/user/code/?phone=13267886101
+[2021-07-22 15:07:09 mylogger] 127.0.0.1 访问 http://localhost:8000/user/login/?phone=13267886101&code=yEkI
+[2021-07-22 15:16:43 mylogger] 127.0.0.1 访问 http://localhost:8000/user/logout/
+[2021-07-22 15:17:01 mylogger] 127.0.0.1 访问 http://localhost:8000/user/code/?phone=13267886101
+[2021-07-22 15:17:34 mylogger] 127.0.0.1 访问 http://localhost:8000/user/login/?phone=13267886101&code=J9K4
+[2021-07-22 16:18:16 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:20:36 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:20:57 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:20:59 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:21:00 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:21:01 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:00 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:01 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:04 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:05 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:06 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:07 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:07 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:07 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:07 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:07 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:08 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:08 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:08 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:08 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:08 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:09 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:09 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:09 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:09 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:10 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:10 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:10 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:11 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:11 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:12 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:12 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:13 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:13 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:14 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:14 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:26:14 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:45:42 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:45:44 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:45:45 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:46:33 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:46:34 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:48:59 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:49:01 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:49:02 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:49:02 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:49:02 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:53:40 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:53:42 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:56:17 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:57:03 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:57:04 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:57:05 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:57:05 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:57:06 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:57:22 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:57:37 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:05 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:06 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:06 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:06 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:06 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:07 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:34 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:34 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:34 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 16:58:35 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 17:00:34 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-22 17:00:53 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:00:50 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:02:06 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:12:09 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:20:16 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:32:10 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:42:59 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:43:03 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:44:35 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:45:00 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:45:02 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:45:44 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:47:58 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:48:45 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 10:49:20 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 11:05:02 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 11:08:15 mylogger] 127.0.0.1 访问 http://localhost:8000/user/list/
+[2021-07-23 11:10:08 mylogger] 127.0.0.1 访问 http://localhost:8000/user/code/
+[2021-07-23 11:10:25 mylogger] 127.0.0.1 访问 http://localhost:8000/user/code/phone%3D123
+[2021-07-23 11:10:48 mylogger] 127.0.0.1 访问 http://localhost:8000/user/code/?phone=123
+[2021-07-23 11:11:21 mylogger] 127.0.0.1 访问 http://localhost:8000/user/login/?phone=123&code=PY7I
+[2021-07-23 15:56:27 mylogger] 127.0.0.1 访问 http://localhost:8000/user/code/?phone=111

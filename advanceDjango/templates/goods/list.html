@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全部商品</title>
+</head>
+<body>
+<h3>全部商品</h3>
+<P>{{ msg }} - {{ wd }}</P>
+<ul>
+    {% for data in datas %}
+    <li>{{ data }}</li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>

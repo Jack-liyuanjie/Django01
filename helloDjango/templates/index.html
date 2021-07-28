@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block css %}
+    <style>
+        #logo{
+            margin: 5px;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <p>
+        <a href="{% url 'orderapp:list' 'xa' 1001 %}">订单</a>
+{#        <a href="{% url 'orderapp:list' order_num=1001 city_code=1001 %}">订单</a>#}
+    </p>
+{% endblock %}
+
+{% block footer %}
+    {{ block.super }}
+    <p>
+        网备DIC119006356
+    </p>
+{% endblock %}

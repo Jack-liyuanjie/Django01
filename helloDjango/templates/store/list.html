@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水果店</title>
+</head>
+<body>
+<p style="color: red;">
+    <span>{{ queryset.name }} - {{ queryset.city }} - {{ queryset.create_time }}</span>
+</p>
+<ul>
+    {% for store in stores %}
+        <li>{{ forloop.counter }}{{ store.name }} : {{ store.city }} - {{ store.create_time }}</li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>
